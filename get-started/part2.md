@@ -160,7 +160,7 @@ Now run the build command. This creates a Docker image, which we're going to
 tag using `-t` so it has a friendly name.
 
 ```shell
-docker build -t friendlyhello .
+docker build . -t friendlyhello .
 ```
 
 Where is your built image? It's in your machine's local Docker image registry:
